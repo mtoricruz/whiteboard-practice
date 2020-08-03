@@ -9,8 +9,8 @@ a = ["Joe", "2", "Ted", "4.98", "14", "Sam", "void *", "42", "float", "pointers"
 # Because I want to print each elem in the list on a separate line;
 # I would loop through list and print out each element.
 
-for elem in a:
-    print(elem)
+# for elem in a:
+#     print(elem)
 # print(a)
 
 # ========================================
@@ -38,9 +38,5 @@ b = ['Bob', 'Slack', ['reddit', '89', 101, ['alacritty', '(brackets)', 5, 375]],
 # i can loop through the list, if it's an elem, print elem elif it is a list, loop through list and say if
 # it is an elem, print elem, if it's a list, loop through list and if it's an elem print elem
 
-for elem in b:
-    if elem == str or int:
-        print(elem)
-    elif elem == list:
-        for elem in list:
-            print(elem)
+
+
