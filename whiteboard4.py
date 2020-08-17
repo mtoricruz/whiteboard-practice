@@ -17,12 +17,15 @@ d = {
 # if type(x) checks if it's int/str/etc.
 
 # P
-numbers = []
-for k, v in d.items():
-    if type(v) is int:
-        numbers.append(v)
-total = sum(numbers)
-print(total)
+def sum_of_values(object):
+    numbers = []
+    for k, v in d.items():
+        if type(v) is int:
+            numbers.append(v)
+    total = sum(numbers)
+    return total
+
+print(sum_of_values(d))
 
 
         
